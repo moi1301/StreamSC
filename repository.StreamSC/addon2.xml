@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="StreamSC Repo" name="Repositorio Stream Servidor Cliente" version="1.0.0" provider-name="Moi">
+    <extension point="xbmc.addon.repository" name="Repo StreamSC">
+        <dir>
+            <info compressed="false">https://moi1301.github/StreamSC</info>
+            <checksum>https://moi1301.github/StreamSC</checksum>
+            <datadir zip="true">https://moi1301.github/StreamSC</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.metadata.addon">
+        <summary>Repositorio para mi Addon Stream SC</summary>
+        <description>Este repositorio instala y actualiza StreamSC automáticamente.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
